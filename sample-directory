@@ -1,0 +1,7 @@
+---
+- name: create a directory
+  tasks:
+    - file:
+        path: /root/sample
+        state: directory
+       
